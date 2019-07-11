@@ -6,7 +6,7 @@ class OpenZwave < Formula
 
   depends_on "doxygen" => :build
   depends_on "pkg-config" => :build
-  
+
   def install
     ENV["BUILD"] = "release"
     ENV["PREFIX"] = prefix
